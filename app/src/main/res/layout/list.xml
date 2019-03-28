@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".list">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/ngo1"
+                android:layout_width="300dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@mipmap/ear"
+                android:paddingLeft="16dp"
+                android:text="  Muskan Foundation"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/line1_xml"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="12dp"
+                android:background="#424242"
+                app:layout_constraintBottom_toTopOf="@+id/ngo2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo1" />
+
+            <Button
+                android:id="@+id/ngo2"
+                android:layout_width="300dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@mipmap/aids_logo"
+                android:paddingLeft="16dp"
+                android:text="  Desire Society"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo1" />
+
+            <View
+                android:id="@+id/line2_xml"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="12dp"
+                android:background="#424242"
+                app:layout_constraintBottom_toTopOf="@+id/ngo3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo2" />
+
+
+            <Button
+                android:id="@+id/ngo3"
+                android:layout_width="300dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@mipmap/blind_logo"
+                android:paddingLeft="16dp"
+                android:text="  National Ass. for the Blind"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo2" />
+
+            <Button
+                android:id="@+id/ngo4"
+                android:layout_width="300dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@mipmap/cancer_logo"
+                android:paddingLeft="16dp"
+                android:text="  HelpAge India"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo3" />
+
+            <View
+                android:id="@+id/line3_xml"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="12dp"
+                android:background="#424242"
+                app:layout_constraintBottom_toTopOf="@+id/ngo4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo3" />
+
+            <Button
+                android:id="@+id/ngo5"
+                android:layout_width="300dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@mipmap/ear"
+                android:paddingLeft="16dp"
+                android:text="  Sounds of Silence"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo4" />
+
+            <View
+                android:id="@+id/line4_xml"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="12dp"
+                android:background="#424242"
+                app:layout_constraintBottom_toTopOf="@+id/ngo5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo4" />
+
+            <Button
+                android:id="@+id/ngo6"
+                android:layout_width="300dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@mipmap/blind_logo"
+                android:paddingLeft="16dp"
+                android:text="  Mitra Jyothi"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo5" />
+
+            <View
+                android:id="@+id/line5_xml"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="12dp"
+                android:background="#424242"
+                app:layout_constraintBottom_toTopOf="@+id/ngo6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo5" />
+
+            <Button
+                android:id="@+id/ngo7"
+                android:layout_width="300dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@mipmap/cancer_logo"
+                android:paddingLeft="16dp"
+                android:text="  Global Vision"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo6" />
+
+            <View
+                android:id="@+id/line6_xml"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="12dp"
+                android:background="#424242"
+                app:layout_constraintBottom_toTopOf="@+id/ngo7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo6" />
+
+            <Button
+                android:id="@+id/ngo8"
+                android:layout_width="300dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@mipmap/aids_logo"
+                android:paddingLeft="16dp"
+                android:text="  India HIV/AIDS Alliance"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo7" />
+
+            <View
+                android:id="@+id/line7_xml"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="12dp"
+                android:background="#424242"
+                app:layout_constraintBottom_toTopOf="@+id/ngo8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo7" />
+
+            <Button
+                android:id="@+id/ngo9"
+                android:layout_width="300dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@mipmap/ear"
+                android:paddingLeft="16dp"
+                android:text="  Sanket Foundation"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo8" />
+
+            <View
+                android:id="@+id/line8_xml"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="12dp"
+                android:background="#424242"
+                app:layout_constraintBottom_toTopOf="@+id/ngo9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo8" />
+
+            <Button
+                android:id="@+id/ngo10"
+                android:layout_width="300dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@mipmap/aids_logo"
+                android:paddingLeft="16dp"
+                android:text="  Maharashtra State AIDS Control Society"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo9" />
+
+            <View
+                android:id="@+id/line10_xml"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="12dp"
+                android:background="#424242"
+                app:layout_constraintBottom_toTopOf="@+id/ngo11"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo10" />
+
+            <View
+                android:id="@+id/line9_xml"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="12dp"
+                android:background="#424242"
+                app:layout_constraintBottom_toTopOf="@+id/ngo10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo9" />
+
+            <Button
+                android:id="@+id/ngo11"
+                android:layout_width="300dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@mipmap/blind_logo"
+                android:paddingLeft="16dp"
+                android:text="  Access for ALL"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo10" />
+
+            <View
+                android:id="@+id/line12_xml"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="12dp"
+                android:background="#424242"
+                app:layout_constraintBottom_toTopOf="@+id/ngo12"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo11" />
+
+            <Button
+                android:id="@+id/ngo12"
+                android:layout_width="300dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@mipmap/cancer_logo"
+                android:paddingLeft="16dp"
+                android:text="  V Care Foundation"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ngo11" />
+
+            <ImageButton
+                android:id="@+id/loc1"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/transparent"
+                android:onClick="muskanf_loc"
+                app:layout_constraintStart_toEndOf="@+id/ngo1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/loc1_logo" />
+
+            <CheckBox
+                android:id="@+id/star1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/star_icon"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/loc1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/loc2"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintStart_toEndOf="@+id/ngo2"
+                app:layout_constraintTop_toBottomOf="@+id/loc1"
+                app:srcCompat="@mipmap/loc1_logo"
+                android:onClick="desire_loc"/>
+
+            <CheckBox
+                android:id="@+id/star2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/star_icon"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.571"
+                app:layout_constraintStart_toEndOf="@+id/loc2"
+                app:layout_constraintTop_toBottomOf="@+id/star1" />
+
+            <ImageButton
+                android:id="@+id/loc3"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintStart_toEndOf="@+id/ngo3"
+                app:layout_constraintTop_toBottomOf="@+id/loc2"
+                app:srcCompat="@mipmap/loc1_logo"
+                android:onClick="nabet_loc"/>
+
+            <CheckBox
+                android:id="@+id/star3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/star_icon"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/loc3"
+                app:layout_constraintTop_toBottomOf="@+id/star2" />
+
+            <ImageButton
+                android:id="@+id/loc4"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintStart_toEndOf="@+id/ngo4"
+                app:layout_constraintTop_toBottomOf="@+id/loc3"
+                app:srcCompat="@mipmap/loc1_logo"
+                android:onClick="helpage_loc"/>
+
+            <CheckBox
+                android:id="@+id/star4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/star_icon"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/loc4"
+                app:layout_constraintTop_toBottomOf="@+id/star3" />
+
+            <ImageButton
+                android:id="@+id/loc5"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintStart_toEndOf="@+id/ngo5"
+                app:layout_constraintTop_toBottomOf="@+id/loc4"
+                app:srcCompat="@mipmap/loc1_logo"
+                android:onClick="sos_loc"/>
+
+            <CheckBox
+                android:id="@+id/star5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="29dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/star_icon"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/loc5"
+                app:layout_constraintTop_toBottomOf="@+id/star4" />
+
+            <ImageButton
+                android:id="@+id/loc6"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintStart_toEndOf="@+id/ngo6"
+                app:layout_constraintTop_toBottomOf="@+id/loc5"
+                app:srcCompat="@mipmap/loc1_logo"
+                android:onClick="mitra_loc"/>
+
+            <CheckBox
+                android:id="@+id/star6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/star_icon"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/loc6"
+                app:layout_constraintTop_toBottomOf="@+id/star5" />
+
+            <ImageButton
+                android:id="@+id/loc7"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintStart_toEndOf="@+id/ngo7"
+                app:layout_constraintTop_toBottomOf="@+id/loc6"
+                app:srcCompat="@mipmap/loc1_logo"
+                android:onClick="globalvision_loc"/>
+
+            <CheckBox
+                android:id="@+id/star7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/star_icon"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/loc7"
+                app:layout_constraintTop_toBottomOf="@+id/star6" />
+
+            <ImageButton
+                android:id="@+id/loc8"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintStart_toEndOf="@+id/ngo8"
+                app:layout_constraintTop_toBottomOf="@+id/loc7"
+                app:srcCompat="@mipmap/loc1_logo"
+                android:onClick="indiahiv_loc"/>
+
+            <CheckBox
+                android:id="@+id/star8"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/star_icon"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/loc8"
+                app:layout_constraintTop_toBottomOf="@+id/star7" />
+
+            <ImageButton
+                android:id="@+id/loc9"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintStart_toEndOf="@+id/ngo9"
+                app:layout_constraintTop_toBottomOf="@+id/loc8"
+                app:srcCompat="@mipmap/loc1_logo"
+                android:onClick="sanket_loc"/>
+
+            <CheckBox
+                android:id="@+id/star9"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/star_icon"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/loc9"
+                app:layout_constraintTop_toBottomOf="@+id/star8" />
+
+            <ImageButton
+                android:id="@+id/loc10"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintStart_toEndOf="@+id/ngo10"
+                app:layout_constraintTop_toBottomOf="@+id/loc9"
+                app:srcCompat="@mipmap/loc1_logo"
+                android:onClick="msacs_loc"/>
+
+            <CheckBox
+                android:id="@+id/star10"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/star_icon"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/loc10"
+                app:layout_constraintTop_toBottomOf="@+id/star9" />
+
+            <ImageButton
+                android:id="@+id/loc11"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintStart_toEndOf="@+id/ngo11"
+                app:layout_constraintTop_toBottomOf="@+id/loc10"
+                app:srcCompat="@mipmap/loc1_logo"
+                android:onClick="accessforall_loc"/>
+
+            <CheckBox
+                android:id="@+id/star11"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/star_icon"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/loc11"
+                app:layout_constraintTop_toBottomOf="@+id/star10" />
+
+            <ImageButton
+                android:id="@+id/loc12"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintStart_toEndOf="@+id/ngo12"
+                app:layout_constraintTop_toBottomOf="@+id/loc11"
+                app:srcCompat="@mipmap/loc1_logo"
+                android:onClick="vcare_loc"/>
+
+            <CheckBox
+                android:id="@+id/star12"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/star_icon"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/loc12"
+                app:layout_constraintTop_toBottomOf="@+id/star11" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/bottom_sheet_xml"
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+        app:behavior_hideable="false"
+        app:behavior_peekHeight="95dp"
+        app:cardBackgroundColor="#2494f4"
+        app:cardCornerRadius="20dp"
+        app:cardMaxElevation="50dp"
+        app:cardPreventCornerOverlap="true"
+        app:layout_behavior="@string/bottom_sheet_behavior"
+        tools:layout_editor_absoluteY="478dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageButton
+                android:id="@+id/button1_xml"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="27dp"
+                android:background="@android:color/transparent"
+                android:src="@mipmap/home_btn_img_xml"
+                android:text="A"
+                android:textAlignment="center"
+                android:textColor="#00ace6"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/dash_xml"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:background="@android:color/transparent"
+                android:src="@mipmap/dash"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/bottom_sheet_xml" />
+
+            <ImageButton
+                android:id="@+id/button2_xml"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:background="@android:color/transparent"
+                android:src="@mipmap/balance_btn_img_xml"
+                app:layout_constraintEnd_toStartOf="@+id/button3_xml"
+                app:layout_constraintStart_toEndOf="@+id/button1_xml"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageButton
+                android:id="@+id/button3_xml"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:layout_marginRight="32dp"
+                android:background="@android:color/transparent"
+                android:src="@mipmap/profile_btn_img_xml"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/button4_xml"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="27dp"
+                android:background="@android:color/transparent"
+                android:src="@mipmap/info_btn_img_xml"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button1_xml" />
+
+
+            <ImageButton
+                android:id="@+id/button5_xml"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:background="@android:color/transparent"
+                android:src="@mipmap/list_btn_img_xml_black"
+                app:layout_constraintEnd_toStartOf="@+id/button6_xml"
+                app:layout_constraintStart_toEndOf="@+id/button4_xml"
+                app:layout_constraintTop_toBottomOf="@+id/button2_xml" />
+
+            <ImageButton
+                android:id="@+id/button6_xml"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:layout_marginRight="32dp"
+                android:background="#00FFFFFF"
+                android:src="@mipmap/settings_btn_img_xml"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button3_xml" />
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</android.support.design.widget.CoordinatorLayout>

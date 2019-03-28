@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2494f4</item>
+        <item name="colorPrimaryDark">#2494f4</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">#232323</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">  // Splash Screen, Login, Sign Up
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">#B3E5FC</item>
+    </style>
+
+    <style name="AppTheme.NoactionBar1">  // Edit Profile
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">#1C62A5</item>
+    </style>
+
+    <style name="AppTheme.CustomTheme1">  // Home, transaction, profile, info, list, settings
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="colorPrimaryDark">#1C62A5</item>
+    </style>
+
+    <style name="AppTheme.CustomTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+</resources>

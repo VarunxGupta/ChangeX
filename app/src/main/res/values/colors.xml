@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0B78FD</color>  // Bar
+    <color name="colorPrimaryDark">#0B78FD</color>  //  Notification bar
+    <color name="colorAccent">#D81B60</color>
+    <color name="onSelect">#1976D2</color>
+</resources>

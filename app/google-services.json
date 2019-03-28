@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1002605965135",
+    "firebase_url": "https://changex-85374.firebaseio.com",
+    "project_id": "changex-85374",
+    "storage_bucket": "changex-85374.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002605965135:android:1af6127bbf602e59",
+        "android_client_info": {
+          "package_name": "com.example.varun.iotprojectbeta3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002605965135-rgbud8kqlsrukj5utcv064g85spqrhun.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.varun.iotprojectbeta3",
+            "certificate_hash": "95e0ea6f5ac780269e132e4b3923f57278e0f549"
+          }
+        },
+        {
+          "client_id": "1002605965135-gsup6mgibtbcmisbmlfet4sghv0j23t4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBN2arOCTNEJuKsl6AK9uk3pXZZzwTBQc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002605965135-gsup6mgibtbcmisbmlfet4sghv0j23t4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
